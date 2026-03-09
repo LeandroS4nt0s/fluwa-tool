@@ -1,6 +1,6 @@
 {
   "name": "@fluwa-tool/server",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Fluwa DevTools Server - Network interception and mocking",
   "main": "dist/index.js",
   "bin": {
