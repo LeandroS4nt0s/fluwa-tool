@@ -5,7 +5,7 @@
 
 import { WebSocket } from 'ws';
 import { ILogger } from '../../core/Logger';
-import { WebSocketMessage } from '@sdk/types';
+import { WebSocketMessage } from '@fluwa-tool/sdk';
 
 export interface ClientInfo {
   ws: WebSocket;

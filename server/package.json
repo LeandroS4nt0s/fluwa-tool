@@ -1,13 +1,14 @@
 {
   "name": "@fluwa-tool/server",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Fluwa DevTools Server - Network interception and mocking",
   "main": "dist/index.js",
   "bin": {
-    "fluwa-tool": "dist/index.js",
-    "fluwa-server": "dist/index.js"
+    "fluwa-tool": "bin/fluwa-server.js",
+    "fluwa-server": "bin/fluwa-server.js"
   },
   "files": [
+    "bin",
     "dist",
     "public"
   ],
@@ -39,6 +40,7 @@
   "author": "jose leandro santos martins <programadorleandrosantos@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@fluwa-tool/sdk": "^1.0.0",
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "tsconfig-paths": "^4.2.0",

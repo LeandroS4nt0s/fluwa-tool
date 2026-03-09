@@ -7,7 +7,7 @@ import { Request, Response } from 'express';
 import { ILogger } from '../../core/Logger';
 import { IRequestService } from './RequestService';
 import { IBroadcaster } from '../../types';
-import { WebSocketMessageType } from '@sdk/types';
+import { WebSocketMessageType } from '@fluwa-tool/sdk';
 
 export class RequestController {
   constructor(
