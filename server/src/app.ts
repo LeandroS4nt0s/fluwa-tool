@@ -36,7 +36,9 @@ export function createApp(logger: ILogger): Express {
   // SERVE STATIC UI
   // ============================================
 
-  const publicPath = path.resolve(process.cwd(), 'public');
+  // Resolve public path relative to the package location
+  const packageDir = path.dirname(require.resolve('@fluwa-tool/server/package.json'));
+  const publicPath = path.join(packageDir, 'public');
   app.use(express.static(publicPath));
 
   // ============================================
