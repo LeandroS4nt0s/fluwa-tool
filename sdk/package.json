@@ -1,0 +1,39 @@
+{
+  "name": "@fluwa-tool/sdk",
+  "version": "1.0.0",
+  "description": "Fluwa DevTools SDK for network interception and mocking",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeandroS4nt0s/fluwa-tool.git",
+    "directory": "sdk"
+  },
+  "homepage": "https://github.com/LeandroS4nt0s/fluwa-tool#readme",
+  "bugs": {
+    "url": "https://github.com/LeandroS4nt0s/fluwa-tool/issues"
+  },
+  "keywords": [
+    "network",
+    "interception",
+    "mocking",
+    "devtools",
+    "testing",
+    "mock-api",
+    "interceptor"
+  ],
+  "author": "jose leandro santos martins <programadorleandrosantos@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

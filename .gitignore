@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+*.js
+*.d.ts
+!sdk/src/**/*.js
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temporary
+.tmp/
+temp/
+*.temp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Development
+.claude/
+
+# Test files (don't commit)
+test-*.js
+test-*.ts
+test-requests.js
+test-scenarios.js
+test-with-mocks.js
+test-with-sdk.js
